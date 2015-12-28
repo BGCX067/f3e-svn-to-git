@@ -1,0 +1,15 @@
+#coding guidelines.
+
+= Coding Guidelines =
+
+Add your content here.  Format your content with:
+  * Access Methods:
+   * GET: getXXX() or XXX()
+   * SET: setXXX()
+   * Methods start with small first letter
+   * Methods can have capital letters to seperate Words (xxX)
+  * Class Members:
+   * start with a underscore: _XXX
+  * Var Names (if scope scope > localmethod):
+   * start with a small letter
+   * words sperated with capital letter xxX (no underscores)

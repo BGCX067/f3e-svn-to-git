@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Animator">
+      <UniqueIdentifier>{c1972194-2fca-429c-8313-4eb1bf0d9e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{db615414-1a43-4132-a73b-ca9dc2af4374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2fc26a8e-66b4-4d79-858d-6ae610f9b8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GLSL">
+      <UniqueIdentifier>{1f4c65e9-aaa0-41b2-9501-0017c0bb84cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HLSL">
+      <UniqueIdentifier>{b6d56ada-2610-4f9c-b73a-15948aba10a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAnimation.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animator.h">
+      <Filter>Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAnimation.h">
+      <Filter>Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindowListener.h">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\shader\glsl\fallback_ps.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\fallback_vs.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\std_ps.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\std_vs.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\hlsl\fallback.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\hlsl\std.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\hlsl\std_texpsvs.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\uv_ps.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\uv_vs.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\hlsl\uv.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\font_ps.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\font_vs.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\hlsl\font.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\normal_ps.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+    <None Include="..\resources\shader\glsl\normal_vs.glsl">
+      <Filter>Shader\GLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+#window creation process
+
+When creating a window the following process structure is used:
+  * Create system specific window
+  * Start Render Sub System
+  * Show Window
